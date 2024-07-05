@@ -1,0 +1,38 @@
+/* Insert CSS Here! */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    height: 150px;
+    border: 2px solid black; /* Add a 2px thick, solid, black colored border */
+}
+
+.description {
+    background-color: yellow;
+    padding: 10px;
+}
+
+#cook-time {
+    color: red;
+    padding-left: 20px; /* Left indent of 20px */
+}
+
+.ingredients {
+    list-style-type: square; /* Change bullet points to squares */
+}
+
+.preparations {
+    padding-left: 20px; /* Left indent for the preparation steps */
+}
+
+.time {
+    color: grey; /* Make the time appear grey */
+}
