@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Input</h1>
+    <!--tells what action will perform when or where form submitted-->
+    <form action="thankyou.html" method="get"> 
+        <input type="text" ><br>
+        <input type="Password"><br>
+        <input type="date"><br>
+        <input type="email" ><br>
+        <input type="number"><br>
+        <input type="color""><br>
+        <input type="time" >
+<h1>Placeholder</h1>
+<h3>id and label input must be same</h3>
+<label for="username">Username : </label>
+<input type="text" placeholder="Name" id="username"><br>
+<label for="password">Password : </label>
+<input type="password" placeholder="Password" id="password">
+<h2>Buttons:Submit,Reset,Search</h2>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="search">Search</button>
+<h2>Checkbox</h2>
+<label for="age">Age : </label>
+<input type="checkbox" name="age" id="age" checked><br>
+<label for="gender">Gender : </label>
+<input type="checkbox" name="gender" id="gender" value="male" required>
+<input type="checkbox" name="gender" id="gender" value="male" required>
+
+<h1>Radio  buttons</h1>
+<label for="gender">Gender:</label>
+<label for="male">Male:</label>
+<input type="radio" name="gender" id="male">
+<label for="female">Female:</label>
+<input type="radio" name="gender" id="female">
+
+
+<h2>Dropdown Menu</h2>
+<label for="country">Country: </label>
+<select name="country" id="country">
+    <option value="America" selected>Australia</option>
+    <option value="America">America</option>
+    <option value="America">UK</option>
+    <option value="America">Spain</option>
+</select>
+<h2>Range:</h2>
+<label for="attendence">Attendence : </label>
+<input type="range" min="0" max="100" name="Attendence" id="Attendence" step="10" value="95">
+<h3>textarea</h3>
+<label for="feedback">Enter your feedback :  </label>
+<textarea name="textarea" rows="30" cols="50" id="feedback"></textarea>
+<br>
+<label for="file">Upload your file : </label>
+<input type="file" name="" id="file">
+</form>
+</body>
+</html>
