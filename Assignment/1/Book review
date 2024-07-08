@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book review</title>
+</head>
+<body>
+    <h1 style="font-size: large; color: rgb(18, 54, 215);">
+		Sahiba's review blog
+	</h1>
+	<h2 style="color: blue;">
+		Hello! Welcome to my blog.
+	</h2>
+	<h3>
+		The book I recently read.
+	</h3>
+	<h4>
+		Pride and Prejustice
+	</h4>
+    <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">LINK</a>
+    <br>
+    <br>
+	<img src="novel.jpeg" height="400px" width="400px">
+	<p>
+		Pride and Prejudice has consistently appeared near the top of lists of "most-loved books" among literary scholars and the reading public. It has become one of the most popular novels in English literature, with over 20 million copies sold, and has inspired many derivatives in modern literature.For more than a century, dramatic adaptations, reprints, unofficial sequels, films, and TV versions of Pride and Prejudice have portrayed the memorable characters and themes of the novel, reaching mass audiences.
+	</p>
+</body>
+</html>
